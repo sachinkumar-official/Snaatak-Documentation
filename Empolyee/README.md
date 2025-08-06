@@ -89,7 +89,7 @@ go version
 ```
 <img width="711" height="517" alt="Image" src="https://github.com/user-attachments/assets/eb8c9127-a6d1-4383-8275-643230e0207b" />
 
-### 3. Install Java 17 (required for ScyllaDB tools)
+### 3. Install Java 17 
 
 ```bash
 sudo apt-get install -y openjdk-17-jre-headless
