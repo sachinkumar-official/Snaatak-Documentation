@@ -1,4 +1,3 @@
-
 # AWS Budget and Cost Anomaly Alerts
 
 <img width="225" height="225" alt="Image" src="https://github.com/user-attachments/assets/153f2890-9a28-44cb-bb13-bdd4209b8cfb" />
@@ -29,7 +28,7 @@
 
 ## Introduction
 
-Controlling cloud costs is a fundamental challenge for businesses, startups, and even individuals using AWS. **AWS Budgets** and **Cost Anomaly Alerts** are industry-standard tools designed for real-time cloud cost management, prevention of billing surprises, and governance. This documentation provides a simple yet comprehensive guide to these services, including workflow diagrams, practical tips, and professional standards.
+This documentation provides a simple yet comprehensive guide to using AWS Budgets and Cost Anomaly Alerts for proactive cloud financial management. Learn how to set up budgets, monitor your AWS spending, receive automated alerts, and take action to optimize costs and prevent billing surprises.
 
 ---
 
@@ -111,18 +110,27 @@ graph TD
 - AWS SNS (for integration with Slack, SMS, etc.)
 - AWS Chatbot (for Teams, Slack)
 
-
+---
 
 ## Implementation Guide
 
 ### 1. Setting Up AWS Budgets
-Follow the official documentation: [AWS Budgets Getting Started](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-getting-started.html)
 
+Official guide: [AWS Budgets Getting Started](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-getting-started.html)
+
+**Steps:**
+1. Log in to the AWS Management Console.
+2. Navigate to the AWS Budgets section under the Cost Management service.
+3. Click “Create budget” and select the budget type (Cost, Usage, RI, Savings Plans).
+4. Define the budget parameters—amount, time period, scope, etc.
+5. Set alert thresholds (e.g., 50%, 80%, 100%) and choose notification channels (email, SNS).
+6. Review and create the budget.
 
 ### 2. Configuring Cost Anomaly Detection
+
 Official guide: [AWS Cost Anomaly Detection Getting Started](https://docs.aws.amazon.com/cost-management/latest/userguide/getting-started-ad.html)
 
-Steps:
+**Steps:**
 1. Go to AWS Cost Management console
 2. Enable Cost Anomaly Detection
 3. Configure monitors and thresholds
@@ -132,7 +140,6 @@ Cost Anomaly Alerts:
 - Set appropriate detection sensitivities
 - Aggregate alerts for related anomalies
 - Route alerts to responsible teams for rapid action
-
 
 ---
 
@@ -160,7 +167,7 @@ Cost Anomaly Alerts:
 
 ## Conclusion
 
-AWS Budgets and Cost Anomaly Detection are best-in-class, industry-grade solutions for cloud financial management. They enable proactive budgeting, fast anomaly response, and continuous optimization according to official AWS and enterprise standards. By applying these tools and best practices, you minimize risk and maximize your cloud investment.
+AWS Budgets and Cost Anomaly Detection offer a robust and practical approach to cloud cost management. By implementing these tools and recommended practices, you can proactively control expenses, respond quickly to anomalies, and continuously optimize your AWS environment.
 
 ---
 
