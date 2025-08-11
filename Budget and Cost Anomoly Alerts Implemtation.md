@@ -73,7 +73,7 @@ This guide details provide the step-by-step process to set up AWS Budgets and Co
     - **Daily Savings Plans coverage budget**: A coverage budget for your Savings Plans that notifies you when you fall below the defined target. This helps you to identify your on-demand spend sooner so that you can consider purchasing a new commitment.
     - **Daily reservation utilization budget**: A utilization budget for your Reserved Instances that notifies you when you fall below the defined target. This helps you to identify when you're not using some of your hourly commitment that you already purchased.
 
-    <img width="1095" height="261" alt="Image" src="https://github.com/user-attachments/assets/dc627fdd-d888-49ea-beb4-b22ba78c93f2" />
+       <img width="1095" height="261" alt="Image" src="https://github.com/user-attachments/assets/dc627fdd-d888-49ea-beb4-b22ba78c93f2" />
 
 6. Update the details and settings for your specific template.
 
@@ -126,7 +126,7 @@ This guide details provide the step-by-step process to set up AWS Budgets and Co
    - Enter a Subscription name.
 
 
-   <img width="990" height="348" alt="Image" src="https://github.com/user-attachments/assets/86251678-126f-44db-adad-001318a1f44d" />
+      <img width="990" height="348" alt="Image" src="https://github.com/user-attachments/assets/86251678-126f-44db-adad-001318a1f44d" />
 
 8. **Set Alert Frequency**  
    Choose **Individual alerts**, **Daily summaries**, or **Weekly summaries**.
@@ -142,7 +142,7 @@ This guide details provide the step-by-step process to set up AWS Budgets and Co
     - Choose **Absolute** or **Percentage** threshold.
     - (Optional) Add a second threshold and choose **AND/OR** condition.
 
-     <img width="756" height="232" alt="Image" src="https://github.com/user-attachments/assets/c53dcd4e-cc0a-4620-a788-9f1d4e6b2cae" />
+        <img width="756" height="232" alt="Image" src="https://github.com/user-attachments/assets/c53dcd4e-cc0a-4620-a788-9f1d4e6b2cae" />
 
 11. **Create Monitor**  
     Click **Create monitor** to finish.
