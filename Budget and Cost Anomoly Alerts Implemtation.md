@@ -1,19 +1,26 @@
 # AWS Budgets and Cost Anomaly Alerts Implementation Guide
 
-| Created by     | Created on | Version | Last Updated On | Pre Reviewer   |
-|----------------|------------|---------|-----------------|---------------|
-| Nitin Sharma   | 11-08-2025 | V 1.0   | 11-08-2025      | Komal Jaiswal |
+<img width="225" height="225" alt="Image" src="https://github.com/user-attachments/assets/153f2890-9a28-44cb-bb13-bdd4209b8cfb" />
 
+
+---
+## Author Information
+| Last Updated On | Version | Author       | Level           | Reviewer   |
+|-----------------|---------|--------------|-----------------|------------|
+| 12-08-2025      | V1.0    | Sachin Kumar | Internal Review | Pritam     |
+| 13-08-2025      | V1.0    | Sachin Kumar | L0              |Shreya/Sharvari|
+|                 |         | Sachin Kumar | L1              | Abhishek V |
+|                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
 ---
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
-3. [Best Practices](#best-practices)
-4. [Implementation](#implementation)
+3. [Implementation](#implementation)
    - [Create a Budget Using a Template](#create-a-budget-using-a-template)
    - [Getting Started with AWS Cost Anomaly Detection](#getting-started-with-aws-cost-anomaly-detection)
+4. [Best Practices](#best-practices)
 5. [Contact Information](#contact-information)
 6. [References](#references)
 
@@ -21,7 +28,9 @@
 
 ## Introduction
 
-This guide details the step-by-step process to set up AWS Budgets and Cost Anomaly Alerts to monitor and control your cloud spending based on last sprint documentation.
+This guide details provide the step-by-step process to set up AWS Budgets and Cost Anomaly Alerts to monitor and control your cloud spending based on last sprint documentation.
+
+> Here is link of Documentation. [Link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-126-sachin/Cost-Optimization/Budget-And-Cost-Alerts/README.md)
 
 ---
 
@@ -70,7 +79,7 @@ This guide details the step-by-step process to set up AWS Budgets and Cost Anoma
 ### Getting Started with AWS Cost Anomaly Detection
 
 1. **Open Console**  
-   Go to the AWS Billing and Cost Management console.
+   Open the Billing and Cost Management console at [https://console.aws.amazon.com/cost-management/](https://console.aws.amazon.com/cost-management/).
 2. **Navigate to Cost Anomaly Detection**  
    In the navigation pane, choose **Cost Anomaly Detection**.
 3. **Open Cost Monitors Tab**  
@@ -98,16 +107,33 @@ This guide details the step-by-step process to set up AWS Budgets and Cost Anoma
 
 ---
 
+## Best Practices
+
+| Practice                     | Description                                                                                                    |
+|------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Use Descriptive Names        | Name budgets and alerts clearly for easy identification.                                                       |
+| Set Realistic Thresholds     | Define thresholds that reflect your organization's budget expectations.                                         |
+| Regular Review               | Adjust thresholds and alert settings periodically based on actual usage.                                       |
+| Integrate with Communication | Connect alerts to team communication tools (Slack, Email, etc.) for faster response.                           |
+| Monitor Frequently           | Check and analyze anomalies regularly to avoid surprise charges.                                                |
+| Document Changes             | Keep a log of all changes in budget and alert settings for audit and troubleshooting purposes.                  |
+
+---
+
 ## Contact Information
 
-| Name         | Email Address                                   |
-|--------------|-------------------------------------------------|
-| Nitin Sharma | [nitin.sharma.snaatak@mygurukulam.co](mailto:nitin.sharma.snaatak@mygurukulam.co) |
+| Name            | Email Address                         |
+|-----------------|---------------------------------------|
+| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](sachin.kumar.snaatak@mygurukulam.co) |
 
 ---
 
 ## References
 
-- [AWS Budgets Documentation](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html)
-- [AWS Cost Anomaly Detection](https://docs.aws.amazon.com/cost-management/latest/userguide/cost-anomaly-detection.html)
-- For further details, see the attached PDF file and internal sprint documentation.
+| Reference Name | Link | Description |
+|:-------------- |:-----|:-----------|
+| AWS Budgets Documentation | [AWS Budgets User Guide](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) | How to create, manage, and track AWS budgets. |
+| AWS Cost Anomaly Detection | [AWS Cost Anomaly Detection](https://docs.aws.amazon.com/cost-management/latest/userguide/cost-anomaly-detection.html) | Machine learning-based cost anomaly detection in AWS. |
+| AWS Cost Explorer | [AWS Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/cost-explorer.html) | Visualize, understand, and manage your AWS costs and usage. |
+
+---
