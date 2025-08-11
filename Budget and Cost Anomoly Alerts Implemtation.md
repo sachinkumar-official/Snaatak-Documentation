@@ -73,7 +73,7 @@ This guide details provide the step-by-step process to set up AWS Budgets and Co
     - **Daily Savings Plans coverage budget**: A coverage budget for your Savings Plans that notifies you when you fall below the defined target. This helps you to identify your on-demand spend sooner so that you can consider purchasing a new commitment.
     - **Daily reservation utilization budget**: A utilization budget for your Reserved Instances that notifies you when you fall below the defined target. This helps you to identify when you're not using some of your hourly commitment that you already purchased.
 
-   <img width="1095" height="261" alt="Image" src="https://github.com/user-attachments/assets/dc627fdd-d888-49ea-beb4-b22ba78c93f2" />
+    <img width="1095" height="261" alt="Image" src="https://github.com/user-attachments/assets/dc627fdd-d888-49ea-beb4-b22ba78c93f2" />
 
 6. Update the details and settings for your specific template.
 
@@ -83,9 +83,9 @@ This guide details provide the step-by-step process to set up AWS Budgets and Co
 
    <img width="1095" height="427" alt="Image" src="https://github.com/user-attachments/assets/53ac0aa4-10c6-4f18-8f40-484a4c4bdb4e" />
 
->Here is the Output.
+   >Here is the Output.
 
-   <img width="1363" height="292" alt="Image" src="https://github.com/user-attachments/assets/baa95a95-6f48-44db-bc6e-8a5b80637310" />
+      <img width="1363" height="292" alt="Image" src="https://github.com/user-attachments/assets/baa95a95-6f48-44db-bc6e-8a5b80637310" />
 
 
 ---
@@ -125,6 +125,7 @@ This guide details provide the step-by-step process to set up AWS Budgets and Co
    - Choose **Create a new subscription** or **Select an existing subscription**.
    - Enter a Subscription name.
 
+
    <img width="990" height="348" alt="Image" src="https://github.com/user-attachments/assets/86251678-126f-44db-adad-001318a1f44d" />
 
 8. **Set Alert Frequency**  
@@ -141,16 +142,16 @@ This guide details provide the step-by-step process to set up AWS Budgets and Co
     - Choose **Absolute** or **Percentage** threshold.
     - (Optional) Add a second threshold and choose **AND/OR** condition.
 
-   <img width="756" height="232" alt="Image" src="https://github.com/user-attachments/assets/c53dcd4e-cc0a-4620-a788-9f1d4e6b2cae" />
+     <img width="756" height="232" alt="Image" src="https://github.com/user-attachments/assets/c53dcd4e-cc0a-4620-a788-9f1d4e6b2cae" />
 
 11. **Create Monitor**  
     Click **Create monitor** to finish.
 
-   <img width="1087" height="242" alt="Image" src="https://github.com/user-attachments/assets/7c4c9966-7870-4e6f-849d-f77bb373447b" />
+    <img width="1087" height="242" alt="Image" src="https://github.com/user-attachments/assets/7c4c9966-7870-4e6f-849d-f77bb373447b" />
 
->Here is the Output.
+      >Here is the Output.
 
-   <img width="1363" height="582" alt="Image" src="https://github.com/user-attachments/assets/b712b040-8082-4707-adfc-3fa9cd2aec4c" />
+    <img width="1363" height="582" alt="Image" src="https://github.com/user-attachments/assets/b712b040-8082-4707-adfc-3fa9cd2aec4c" />
 
 
 ---
