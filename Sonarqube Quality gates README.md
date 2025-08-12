@@ -2,6 +2,24 @@
 
 ---
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [What are SonarQube Quality Gates?](#what-are-sonarqube-quality-gates)
+3. [Why Use Quality Gates?](#why-use-quality-gates)
+4. [Workflow Diagram](#workflow-diagram)
+5. [Identification of Quality Gates](#identification-of-quality-gates)
+    - [Default Quality Gates](#default-quality-gates)
+    - [Custom Quality Gates](#custom-quality-gates)
+6. [Advantages of Quality Gates](#advantages-of-quality-gates)
+7. [Best Practices](#best-practices)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+10. [References](#references)
+
+---
+
+
 ## Introduction
 
 This documentation provides a simple and practical guide about SonarQube Quality Gates: what they are, why you need them, how they work, and how to use them effectively.
@@ -38,11 +56,20 @@ flowchart LR
 
 Quality Gates are like traffic lights for your code. They tell you if your code is good to go or if it needs fixing.
 
-- **Default Quality Gate:**  
+### **Default Quality Gate:**  
   SonarQube comes with a ready-to-use Quality Gate called "Sonar way." It checks for basic things like no new serious bugs, high enough test coverage, and not too much duplicated code.
+which typically checks for:
+- No new critical or blocker issues (bugs, vulnerabilities)
+- No new code coverage < 80%
+- No new code duplications > 3%
+- No new code smells above a threshold
 
-- **Custom Quality Gates:**  
-  You can make your own Quality Gates if the default one doesn’t fit your needs. For example, you can set stricter rules or add new checks depending on your project.
+### **Custom Quality Gates:**  
+  You can make your own Quality Gates if the default one doesn’t fit your needs. For example:
+- Add or remove conditions (e.g., increase code coverage requirement, add security hotspot checks)
+- Set conditions based on different severities or metrics
+- Assign different gates to different projects or branches (e.g., stricter rules for main branch, relaxed for feature branches)
+
 
 **How to find Quality Gates in SonarQube:**
 1. Log in to SonarQube.
