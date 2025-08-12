@@ -1,5 +1,7 @@
 # SonarQube Quality Gates Documentation
 
+<img width="303" height="167" alt="Image" src="https://github.com/user-attachments/assets/920e8d29-082f-40d6-b7b1-51f225ec1705" />
+
 ---
 ## Author Information
 | Last Updated On | Version | Author       | Level           | Reviewer   |
