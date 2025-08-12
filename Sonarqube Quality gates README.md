@@ -1,6 +1,16 @@
 # SonarQube Quality Gates Documentation
 
 ---
+## Author Information
+| Last Updated On | Version | Author       | Level           | Reviewer   |
+|-----------------|---------|--------------|-----------------|------------|
+| 24-07-2025      | V1.0    | Sachin Kumar | Internal Review | Pritam     |
+| 25-07-2025      | V1.1    | Sachin Kumar | L0              |Shreya/Sharvari|
+|                 |         | Sachin Kumar | L1              | Abhishek V |
+|                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
+---
+
+---
 
 ## Table of Contents
 
@@ -28,13 +38,13 @@ This documentation provides a simple and practical guide about SonarQube Quality
 
 ## What are SonarQube Quality Gates?
 
-Quality Gates are simple rules in SonarQube that check your code for problems like bugs, security issues, and bad practices before the code moves forward.
+ Quality Gates in SonarQube are simple rule sets that check your code for bugs, security issues, and bad practices, ensuring it meets the required quality standards before moving forward in the development pipeline, so only safe, clean, and maintainable code progresses to the next stage.
 
 ---
 
 ## Why Use Quality Gates?
 
-Quality Gates help you catch issues early, make code safer, and keep your project healthy by stopping bad code from being released.
+Quality Gates act as a safety net that catches issues early, making code safer and projects healthier by stopping bad code from being released. They ensure only code meeting team standards moves forward, helping avoid bugs, improve coding practices, reduce costs, and deliver reliable software faster.
 
 ---
 
@@ -104,18 +114,15 @@ which typically checks for:
 
 ## Conclusion
 
-Quality Gates in SonarQube make sure only good code goes forward. They’re easy to use, help your team, and keep your projects healthy.
+Quality Gates in SonarQube are a powerful and easy way to keep your codebase healthy, reliable, and secure. By setting up and using these automated checks, your team can catch issues early, enforce coding standards, and confidently deliver better software.
 
 ---
 
 ## Contact Information
 
-For questions or support, contact:
-
-- **Quality Engineering Team**
-- Email: quality@yourcompany.com
-- Phone: +1-800-123-4567
-- Slack: #sonarqube-support
+| Name            | Email Address                         |
+|-----------------|---------------------------------------|
+| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](sachin.kumar.snaatak@mygurukulam.co) |
 
 ---
 
@@ -125,5 +132,4 @@ For questions or support, contact:
 |--------------------------------------|----------------------------------------------------------------------------------------|
 | SonarQube Quality Gates Docs         | [https://docs.sonarqube.org/latest/user-guide/quality-gates/](https://docs.sonarqube.org/latest/user-guide/quality-gates/) |
 | SonarQube Official Website           | [https://www.sonarqube.org/](https://www.sonarqube.org/)                               |
-| SonarQube Community                  | [https://community.sonarsource.com/](https://community.sonarsource.com/)               |
 | CI/CD Integration with SonarQube     | [https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) |
