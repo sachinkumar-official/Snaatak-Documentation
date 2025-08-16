@@ -1,4 +1,4 @@
-#  Implementation on VCS Setup 
+# Implementation on VCS Setup 
 
 <img width="225" height="225" alt="Image" src="https://github.com/user-attachments/assets/cc12d09c-9889-42e3-8fe7-52c1a38a6ae4" />
 
@@ -7,40 +7,42 @@
 | Last Updated On | Version | Author       | Level           | Reviewer   |
 |-----------------|---------|--------------|-----------------|------------|
 | 31-07-2025      | V1.0    | Sachin Kumar | Internal Review | Pritam     |
-| 01-07-2025      | V1.1    | Sachin Kumar | L0              |Shreya/Sharvari|
+| 01-07-2025      | V1.1    | Sachin Kumar | L0              | Shreya/Sharvari |
 |                 |         | Sachin Kumar | L1              | Abhishek V |
-|                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
+|                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh Sharma |
 
 ---
 # Table of Contents 
-+ [Introduction](#Introduction)
-+ [Prerequisites](#Prerequisites)
-+ [Installation Setup](#Installation-Setup)
-+ [Conclusion](#Conclusion)
-+ [Contact Information](#Contact-Information)
-+ [Reference](#Reference)
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Setup via Web browser](#setup-via-web-browser)
+  - [Account Creation](#1-account-creation)
+  - [Organization Setup](#2-organization-setup)
+  - [Repository Creation](#3-repository-creation)
+  - [Team Management](#4-team-management)
+  - [Version Control Concepts](#5-version-control-concepts)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
 ***
-
 
 # Introduction
 
- This document will walk you through the step-by-step process of installing GitHub, an essential platform for version control and collaborative software development. GitHub is a web-based 
- platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code 
- repositories. 
+This document will walk you through the step-by-step process of installing GitHub, an essential platform for version control and collaborative software development. GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
 
 ***
-
 
 # Prerequisites 
 
 * Working Email ID 
 
 ***
+
 # Setup via Web browser
 
 ## 1. Account Creation 
 
-###  Sign Up for GitHub
+### Sign Up for GitHub
 
 - Go to [GitHub](https://github.com/).
 - Click **Sign up**.
@@ -73,7 +75,7 @@ Organizations are ideal if you plan to manage multiple repositories with collabo
 
 Repositories house your project files and code.
 
-###  Create a Repository
+### Create a Repository
 
 - Inside your organization (or personal account), click **New repository**.
    <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/09ecab9e-50b7-4dd9-97df-da9359be5706" />
@@ -137,17 +139,18 @@ Teams help organize contributors and manage permissions.
 In conclusion, this GitHub Setup Documentation has guided you through the essential steps to establish a solid foundation for version control and collaborative development. GitHub's features will empower you to optimize your development workflow, collaborate efficiently, and maintain code quality. 
 
 ---
+
 # Contact Information
 
-| Name            | Email Address                         |
-|-----------------|---------------------------------------|
-| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](sachin.kumar.snaatak@mygurukulam.co) |
+| Name         | Email Address                          |
+|--------------|---------------------------------------|
+| Sachin Kumar | [sachin.kumar.snaatak@mygurukulam.co](mailto:sachin.kumar.snaatak@mygurukulam.co) |
 
 ---
 
 # References
 
-- [GitHub Docs](https://docs.github.com/en)
-- [Git Installation Guide](https://phoenixnap.com/kb/how-to-install-git-windows)
-
----
+| Title                  | Link                                                                                   |
+|------------------------|----------------------------------------------------------------------------------------|
+| GitHub Docs            | [https://docs.github.com/en](https://docs.github.com/en)                               |
+| Git Installation Guide | [https://phoenixnap.com/kb/how-to-install-git-windows](https://phoenixnap.com/kb/how-to-install-git-windows) |
