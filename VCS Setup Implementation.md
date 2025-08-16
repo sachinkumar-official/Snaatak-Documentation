@@ -1,6 +1,6 @@
 #  Implementation on VCS Setup 
 
-<img width="314" height="160" alt="Image" src="https://github.com/user-attachments/assets/d14c27d8-1ed2-4b3c-9de8-d41c5cdb7aac" />
+<img width="225" height="225" alt="Image" src="https://github.com/user-attachments/assets/cc12d09c-9889-42e3-8fe7-52c1a38a6ae4" />
 
 ---
 # Author Information
@@ -56,12 +56,17 @@ Organizations are ideal if you plan to manage multiple repositories with collabo
 
 ### Create an Organization
 
-- On GitHub, click your profile icon (top right) > **Your organizations**.
+- On GitHub, click your profile icon (top right) > **Your organizations**. 
 - Click **New organization**.
+    <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/f0a83849-b8c4-4f99-9406-405d50845fed" />   
 - Choose a plan (free for most users).
-- Fill in organization name, email, and other details.
-- Invite team members if needed.
+   <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/eee27abc-2b28-4d37-9bbe-81490d0976e0" />
 
+- Fill in organization name, email, and other details.
+   <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/bdcadab8-9310-4897-b25e-d55a6b8f6136" />
+
+- Invite team members if needed.
+   <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/c046267a-f23e-4b14-99bd-edf880bdc8df" />
 ---
 
 ## 3. Repository Creation
@@ -71,10 +76,13 @@ Repositories house your project files and code.
 ###  Create a Repository
 
 - Inside your organization (or personal account), click **New repository**.
+   <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/09ecab9e-50b7-4dd9-97df-da9359be5706" />
+
 - Enter repository name, description, choose visibility (public/private).
 - Initialize with a README (recommended).
 - Add `.gitignore` and license if needed.
-
+- Then click create repository.
+   <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/1bd6e4b1-01c8-405c-9199-29a9ad851f40" />
 ---
 
 ## 4. Team Management
@@ -84,8 +92,13 @@ Teams help organize contributors and manage permissions.
 ### Step 1: Create Teams
 
 - Go to your organization > **Teams** > **New team**.
+  <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/eab05ccf-6b78-41b3-8c88-77d06cc243e5" />
+  <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/5e3867e7-4202-4509-bbc5-b79aa292f7f6" />
 - Name your team (e.g., Developers, Designers, Testers).
+  <img width="1366" height="687" alt="Image" src="https://github.com/user-attachments/assets/2aab76b6-faab-4512-9c99-bd1620948630" />
+  <img width="1357" height="693" alt="Image" src="https://github.com/user-attachments/assets/b917177e-b873-4e4a-8589-2834e15dd2d2" />
 - Add members to each team.
+  <img width="1357" height="693" alt="Image" src="https://github.com/user-attachments/assets/d3e157d4-5248-49b1-8574-5867c4001664" />
 
 ### Step 2: Assign Repository Access
 
@@ -113,33 +126,10 @@ Teams help organize contributors and manage permissions.
 - Tracks changes only on your local machine.
 - Not recommended for team projects.
 
-#### Setting Up Git Locally
+### Setting Up Git Locally
 
-1. **Install Git**:  
-   - Windows: [Install Guide](https://phoenixnap.com/kb/how-to-install-git-windows)  
-   - Mac/Linux: Use your package manager (`brew install git` or `sudo apt install git`).
-
-2. **Configure Git**:
-   ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
-   ```
-
-3. **Clone Repository**:
-   ```bash
-   git clone https://github.com/your-org/your-repo.git
-   ```
-
-4. **Branching and Merging**:
-   ```bash
-   git checkout -b feature-branch
-   # Make changes
-   git add .
-   git commit -m "Description of changes"
-   git push origin feature-branch
-   # Create a Pull Request on GitHub
-   ```
-
+> Follow this Documentation [Link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-90-sachin/VCS/Features-VCS/Setup/README.md)
+   
 ---
 
 # Conclusion  
