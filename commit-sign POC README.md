@@ -11,37 +11,7 @@
 |                 |         | Sachin Kumar | L1              | Abhishek V |
 |                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
 
----
 
-## Table of Contents
-
-<details>
-<summary>1. Overview</summary>
-
-- [Introduction](#introduction)  
-- [Understanding Commit Sign Off](#understanding-commit-sign-off)  
-
-</details>
-
-<details>
-<summary>2. Step-by-Step Walkthrough</summary>
-
-- [Step 1: Clone the Repository](#step-1)  
-- [Step 2: Make Some Changes](#step-2)  
-- [Step 3: Commit with Sign-Off](#step-3)  
-- [Step 4: Push to Remote](#step-4)  
-- [Step 5: Confirm the Changes](#step-5)  
-
-</details>
-
-<details>
-<summary>3. Wrap-Up</summary>
-
-- [Conclusion](#conclusion)  
-- [Contact](#contact)  
-- [References](#references)
-
-</details>
 
 ---
 
