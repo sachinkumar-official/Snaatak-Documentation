@@ -1,4 +1,5 @@
 # Documentation of Commit Sign-Off 
+<img width="259" height="194" alt="Image" src="https://github.com/user-attachments/assets/7ca2962c-ad06-4422-b1b7-e8bf49a180ed" />
 
 ---
 ## Author Information
@@ -85,13 +86,10 @@ Adding a sign-off check to your CI operations helps by:
 Commit sign-off adds a critical compliance layer to the CI process. By verifying code ownership and policy agreement at the source, it strengthens the integrity and security of modern development workflows. When combined with automated CI checks, sign-off enforcement supports a scalable and reliable application CI design.
 
 ---
-
-## Contact
-
-| Name          | Email Address                              |
-|---------------|--------------------------------------------|
-| Yuvraj Singh  | yuvraj.singh.snaatak@mygurukulam.co         |
-
+## Contact Information
+| Name            | Email Address                         |
+|-----------------|---------------------------------------|
+| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](sachin.kumar.snaatak@mygurukulam.co) |
 ---
 
 ## References
