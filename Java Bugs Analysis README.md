@@ -11,29 +11,31 @@
 |                 |         | Sachin Kumar | L1              | Abhishek V |
 |                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
 ---
+
 ## Table of Contents
 
-- [Introduction](#introduction)  
-- [What is Bug Analysis?](#what-is-bug-analysis)  
-- [Why is Bug Analysis Important?](#why-is-bug-analysis-important) 
-- [Workflow](#workflow)  
-    - [1. Code Development](#1-code-development)  
-    - [2. Static Analysis](#2-static-analysis)  
-    - [3. Code Compilation](#3-code-compilation)  
-    - [4. Manual/Automated Testing](#4-manualautomated-testing)  
-    - [5. Bug Detection](#5-bug-detection)  
-    - [6. Bug Reporting](#6-bug-reporting)  
-    - [7. Bug Fixing](#7-bug-fixing)  
-    - [8. Code Deployment](#8-code-deployment)  
-- [Tools for Bug Analysis in Java](#tools-for-bug-analysis-in-java)  
-- [Comparison of Tools](#comparison-of-tools)
-- [Advantages of Bug Analysis](#advantages-of-bug-analysis)  
-- [Proof of Concept (POC)](#proof-of-concept-poc) 
-- [Best Practices](#best-practices)  
-- [Conclusion](#conclusion)  
-- [Contact Information](#contact-information)  
-- [References](#references)  
+1. [Introduction](#introduction)
+2. [What is Bug Analysis?](#what-is-bug-analysis)
+3. [Why is Bug Analysis Important?](#why-is-bug-analysis-important)
+4. [Workflow](#workflow)
+    - [Code Development](#1-code-development)
+    - [Static Analysis](#2-static-analysis)
+    - [Code Compilation](#3-code-compilation)
+    - [Manual/Automated Testing](#4-manualautomated-testing)
+    - [Bug Detection](#5-bug-detection)
+    - [Bug Reporting](#6-bug-reporting)
+    - [Bug Fixing](#7-bug-fixing)
+    - [Code Deployment](#8-code-deployment)
+5. [Tools for Bug Analysis in Java](#tools-for-bug-analysis-in-java)
+6. [Comparison of Tools](#comparison-of-tools)
+7. [Advantages of Bug Analysis](#advantages-of-bug-analysis)
+8. [Proof of Concept (POC)](#proof-of-concept-poc)
+9. [Best Practices](#best-practices)
+10. [Conclusion](#conclusion)
+11. [Contact Information](#contact-information)
+12. [References](#references)
 
+--- 
 
 
 ## Introduction
@@ -116,11 +118,15 @@ Once all bugs are fixed and the code passes all tests, it is deployed to staging
 
 ## Advantages of Bug Analysis
 
-- **Improved Software Maintainability**: Makes it easier to enhance and extend code in the future.
-- **Better Team Collaboration**: Shared understanding of quality metrics and areas of concern.
-- **Informed Decision-Making**: Prioritize technical debt and feature development.
-- **Audit and Compliance Readiness**: Ensure that your code adheres to standards and is traceable.
-- **Reduced Post-Deployment Failures**: Avoid costly rollbacks or hotfixes.
+| Advantage                                   | Description                                                                                       |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Improved Software Maintainability**           | Makes it easier to enhance and extend code in the future.                                         |
+| **Better Team Collaboration**                   | Shared understanding of quality metrics and areas of concern.                                     |
+| **Informed Decision-Making**                    | Prioritize technical debt and feature development.                                                |
+| **Audit and Compliance Readiness**              | Ensure that your code adheres to standards and is traceable.                                      |
+| **Reduced Post-Deployment Failures**            | Avoid costly rollbacks or hotfixes.                                                               |
+
+---
 
 ## Proof of Concept (POC)
 
@@ -128,11 +134,13 @@ Once all bugs are fixed and the code passes all tests, it is deployed to staging
 
 ## Best Practices
 
-- Automate static analysis using CI tools like Jenkins or GitHub Actions.
-- Conduct frequent peer reviews focused on identifying logical bugs.
-- Implement thorough unit and integration testing early in the SDLC.
-- Monitor applications in production using logging frameworks.
-- Maintain traceable documentation for all bug reports and fixes.
+| Best Practice                                                        | Description                                                                              |
+|---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| **Automate static analysis using CI tools**                             | Use Jenkins or GitHub Actions to run static analysis automatically in pipelines.         |
+| **Conduct frequent peer reviews focused on identifying logical bugs**    | Encourage team reviews to catch logic errors early.                                      |
+| **Implement thorough unit and integration testing early in SDLC**        | Integrate automated tests at the beginning of the software lifecycle.                    |
+| **Monitor applications in production using logging frameworks**          | Use tools like Sentry and Log4j to track bugs and issues in real time.                   |
+| **Maintain traceable documentation for all bug reports and fixes**       | Ensure every bug and its resolution is documented for future reference and compliance.   |
 
 ## Conclusion
 
