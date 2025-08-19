@@ -33,7 +33,7 @@ This document offers a straightforward guide to identifying and addressing bugs 
 
 ## What and Why Bug Analysis?
 
-To get a detailed about bug analysis in java [click here]().
+To get a detailed about bug analysis in java [click here](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-159-sachin/Applications/CI-Design/Java%20CI%20Checks/Bugs%20analysis/Introduction/README.md).
 
 ## Steps of Conduct
 
@@ -58,28 +58,30 @@ To get a detailed about bug analysis in java [click here]().
 
 ### Install Dependencies
 
-  *[Go to this link](https://github.com/snaatak-Downtime-Crew/Documentation/blob/main/common_stack/operating_system/ubuntu/sop/commoncommands/README.md#1-basic-system-commands) and follow `STEP 3. Update and Upgrade Packages`.*
+- **Update and Upgrade Packages**
   
-  ![image](https://github.com/user-attachments/assets/436278c3-993e-48e5-912d-01a07aed633e)
+   <img width="696" height="169" alt="Image" src="https://github.com/user-attachments/assets/6869852a-684b-49b2-b736-1ee7ae1b4b48" />
 
 - **Install Java**
 
-  *[Go to this link](https://github.com/snaatak-Downtime-Crew/Documentation/tree/main/common_stack/application/java/installation/guide#java-installation-steps-ubuntu) and follow `Java Installation Steps (Ubuntu)`.*
+  *[Go to this link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/89c6c6e8de0b6e6abbca8273c7f8ae0051f65c9b/Softwares/Java/Installation/Manual/README.md) and follow `Java Installation Steps (Ubuntu)`.*
   
-  ![image](https://github.com/user-attachments/assets/6bf62845-fe4d-4729-9262-eabd824893fa)
+  <img width="806" height="139" alt="Image" src="https://github.com/user-attachments/assets/67f409bc-a54a-4156-95a8-e7186ba7d96a" />
+
 
 - **Install PostgreSQL**
 
-  *[Go to this link](https://github.com/snaatak-Downtime-Crew/Documentation/tree/main/common_stack/software/postgresql/installation#step-by-step-setup-guide) and follow `Step-by-Step Setup Guide` upto step 3.*
+  *[Go to this link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-80-nitin/OT-Microservies/Softwares/Postgresql/POC/README.md) and follow `Step-by-Step Setup Guide`  step 6.*
   
-  ![image](https://github.com/user-attachments/assets/f9a86130-61d8-4bb2-8592-f5991ffe24c2)
+  <img width="806" height="224" alt="Image" src="https://github.com/user-attachments/assets/9cf3626d-cfc8-4db2-93be-b9e1a4be3177" />
 
 
 - **Install unzip**
-
-  *[Go to this link](https://github.com/snaatak-Downtime-Crew/Documentation/tree/main/common_stack/operating_system/ubuntu/sop/softwaremanagement#3-Install-a-Software) and follow `3. Install a Software` Package name: unzip*
-  
-  ![image](https://github.com/user-attachments/assets/5816daf7-40d3-4094-9aa4-450d1f531782)
+    ``` 
+    sudo apt install unzip -y
+    unzip --version
+    ```
+   <img width="806" height="179" alt="Image" src="https://github.com/user-attachments/assets/87f89fbb-baee-453a-8f3c-b0f4f09cd93c" />
 
 - **Install SonarQube**
 
@@ -92,7 +94,7 @@ To get a detailed about bug analysis in java [click here]().
   sudo chown sonar:sonar /opt/sonarqube -R
   ```
 
-  ![image](https://github.com/user-attachments/assets/4392851d-7266-4b04-b1cb-566618138d65)
+   <img width="1307" height="366" alt="Image" src="https://github.com/user-attachments/assets/8469392a-3749-487a-8400-de3b2619575e" />
 
 - **Install SonarScanner**
 
@@ -106,13 +108,12 @@ To get a detailed about bug analysis in java [click here]().
   source ~/.bashrc
   ```
 
-  ![image](https://github.com/user-attachments/assets/e863f3f2-770d-41d6-908f-8374f905f610)
-
+  <img width="968" height="164" alt="Image" src="https://github.com/user-attachments/assets/307800be-4b6f-4d0d-b7e2-aee2340861e5" />
 - **Install Maven**
 
-  *Install Maven* [Go to this link](https://github.com/snaatak-Downtime-Crew/Documentation/blob/main/common_stack/application/java/maven/sop/README.md#step-2-install-maven-and-check-version) and follow `Step 2: Install Maven and check version`.
+  *Install Maven* [Go to this link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/scrum-34-mansoor/Softwares/Java/Maven/SOP/README.md) and follow `Step 2: Install Maven and check version`.
 
-  ![image](https://github.com/user-attachments/assets/149474b7-83b8-4ddb-8947-acf3497309f8)
+  <img width="837" height="164" alt="Image" src="https://github.com/user-attachments/assets/1c594fd8-02f1-4d55-a0dd-f1f6d008c751" />
 
 ### Configuration
 
@@ -124,15 +125,16 @@ To get a detailed about bug analysis in java [click here]().
   sudo passwd postgres
   ```
 
-  ![image](https://github.com/user-attachments/assets/cc531230-3c86-4616-b664-e1ace5e2fbeb)
+  <img width="469" height="118" alt="Image" src="https://github.com/user-attachments/assets/a5f62b93-b369-4d5f-9611-4ea303b89e81" />
+  
 
-  > *Access postgre user*
+   > *Access postgre user*
 
   ```
   su - postgres
   ```
 
-  ![image](https://github.com/user-attachments/assets/4e13ff74-6e2f-4cc9-8cbf-54c36a3500e4)
+  <img width="469" height="73" alt="Image" src="https://github.com/user-attachments/assets/189a4958-a026-4fb5-9fc3-82073fcf5667" />
 
   > *Create a user sonar*
 
@@ -140,7 +142,7 @@ To get a detailed about bug analysis in java [click here]().
   createuser sonar
   ```
 
-  ![image](https://github.com/user-attachments/assets/57a7c771-e5bb-4aea-9b18-612f7f5d302e)
+  <img width="469" height="73" alt="Image" src="https://github.com/user-attachments/assets/c01a096d-d9eb-4669-bc02-6623a953b420" />
 
   > *Log in to PostgreSQL and create database*
 
@@ -152,8 +154,7 @@ To get a detailed about bug analysis in java [click here]().
   GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonar;
   ```
   
-  ![image](https://github.com/user-attachments/assets/6304fe01-5ba1-4f71-88c0-8f596c267655)
-
+  <img width="636" height="181" alt="Image" src="https://github.com/user-attachments/assets/6961ca15-ac89-43fe-9859-c620ea8174c9" />
   > *Quit*
   
   ```
@@ -161,7 +162,7 @@ To get a detailed about bug analysis in java [click here]().
   exit
   ```
 
-  ![image](https://github.com/user-attachments/assets/4d8c2532-d319-4451-b03c-0ce0c5f6870d)
+  <img width="389" height="111" alt="Image" src="https://github.com/user-attachments/assets/fa668a45-7a37-4236-8b76-9a0a2510a470" />
 
 - **SonarQube**
 
@@ -173,8 +174,8 @@ To get a detailed about bug analysis in java [click here]().
   sonar.jdbc.url=jdbc:postgresql://localhost:5432/sonarqube
   ```
 
-  ![image](https://github.com/user-attachments/assets/701c59e6-65c7-4a3c-a240-4e1a1a2ed989)
-
+  <img width="988" height="385" alt="Image" src="https://github.com/user-attachments/assets/c9f82c43-866e-4203-acac-79f1e6025734" />
+  
   > *Modify Kernel System Limits at `/etc/sysctl.conf`*
     ```
     vm.max_map_count=262144
@@ -183,7 +184,8 @@ To get a detailed about bug analysis in java [click here]().
     ulimit -u 8192
     ```
 
-    ![image](https://github.com/user-attachments/assets/1f901c3c-5994-4c9f-9a29-91d78aec6c35)
+    <img width="683" height="286" alt="Image" src="https://github.com/user-attachments/assets/0485e103-8077-47fc-9794-aec2c5078be4" />
+
 
   > *Reboot the system to apply the changes*
   ```
@@ -198,7 +200,7 @@ To get a detailed about bug analysis in java [click here]().
   sonar.host.url=http://localhost:9000
   ```
 
-  ![image](https://github.com/user-attachments/assets/37dc2953-8948-4b2e-9361-d57f892e43d6)
+  <img width="528" height="172" alt="Image" src="https://github.com/user-attachments/assets/d8d7d7c3-5ab9-44db-835b-bb85a9117efd" />
 
 
 ### Service for SonarQube
@@ -226,6 +228,8 @@ SuccessExitStatus=143
 [Install]
 WantedBy=multi-user.target
 ```
+  <img width="886" height="450" alt="Image" src="https://github.com/user-attachments/assets/5c19d5b0-f736-409a-9438-8d0ee991e09a" />
+
 
 *Start the server*
 
@@ -235,7 +239,7 @@ sudo systemctl start sonarqube
 sudo systemctl enable sonarqube
 ```
 
-![image](https://github.com/user-attachments/assets/5aaef7c9-740d-4505-8094-8459f5d66fb6)
+ <img width="886" height="232" alt="Image" src="https://github.com/user-attachments/assets/b9f4559b-c116-4250-b500-cc6e89468b43" />
 
 ### Testing the API  
 
