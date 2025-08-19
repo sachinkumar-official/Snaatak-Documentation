@@ -154,8 +154,7 @@ To get a detailed about bug analysis in java [click here](https://github.com/Sna
   GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonar;
   ```
   
-  <img width="636" height="181" alt="Image" src="https://github.com/user-attachments/assets/6961ca15-ac89-43fe-9859-c620ea8174c9" />
-  > *Quit*
+  <img width="636" height="181" alt="Image" src="https://github.com/user-attachments/assets/6961ca15-ac89-43fe-9859-c620ea8174c9" /> 
   
   ```
   \q
@@ -245,20 +244,19 @@ sudo systemctl enable sonarqube
 
 *Clone your [Salary API](https://github.com/OT-MICROSERVICES/salary-api.git) project repository from GitHub*
 
-![image](https://github.com/user-attachments/assets/21c5c5ae-14d0-4d86-b769-8f5e47a305a8)
-
+  <img width="886" height="210" alt="Image" src="https://github.com/user-attachments/assets/2858e269-a424-40f2-99e6-a6e53a938df0" />
 
 - **Start SonarQube Server**  
 
  > *Go-to SonarQube server at `<public-ip>:9000`*
 
-  ![image](https://github.com/user-attachments/assets/ab8a3843-75d8-42de-96da-033bc5658014)
+    <img width="1361" height="415" alt="Image" src="https://github.com/user-attachments/assets/2b552ef6-2544-436d-92e7-0d89c009bcf6" />
 
 - **Generate SonarQube Authentication Token**  
 
  > *Create an authentication token for scanning. `My Account > Security`*
 
- ![image](https://github.com/user-attachments/assets/33f5a2ab-b581-4532-a846-f211dbff1137)
+ <img width="1361" height="573" alt="Image" src="https://github.com/user-attachments/assets/e6770544-cee6-451c-9194-8dbc9950bbdd" />
 
 - **Configure the Project for SonarQube**
 
@@ -272,7 +270,7 @@ sudo systemctl enable sonarqube
  </plugin>
  ```
 
- ![image](https://github.com/user-attachments/assets/f4f27777-aefc-422f-a8ac-a881611569c7)
+   <img width="1361" height="219" alt="Image" src="https://github.com/user-attachments/assets/e5df58cc-534b-4b2c-a077-c1a242bab4bf" />
 
 
 - **Run Sonar Scanner**  
@@ -289,7 +287,7 @@ sudo systemctl enable sonarqube
 
  > *Review bugs, vulnerabilities, and other code quality metrics in the dashboard.*
 
- ![image](https://github.com/user-attachments/assets/e8194959-579a-4caa-8512-f448615f5083)
+ <img width="1361" height="706" alt="Image" src="https://github.com/user-attachments/assets/a7dfa5a9-0c14-42fa-b4c3-7de33fa51fdc" />
 
 - **Prioritize and Fix Issues**  
 
