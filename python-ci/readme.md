@@ -2,19 +2,30 @@
 
 <img width="366" height="236" alt="Image" src="https://github.com/user-attachments/assets/d0f55cc7-6fdb-4925-a4f7-160b59f7a209" />
 
-
 ---
 ## Author Information
 | Last Updated On | Version | Author       | Level           | Reviewer   |
 |-----------------|---------|--------------|-----------------|------------|
 | 20-07-2025      | V1.0    | Sachin Kumar | Internal Review | Pritam     |
-| 21-07-2025      | V1.1    | Sachin Kumar | L0              |Shreya/Sharvari|
+| 21-07-2025      | V1.1    | Sachin Kumar | L0              | Shreya/Sharvari |
 |                 |         | Sachin Kumar | L1              | Abhishek V |
-|                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
+|                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh Sharma |
 ---
 
 ## Table of Contents
 
+- [Introduction](#introduction)
+- [What are Python Dependency Vulnerability Checks?](#what-are-python-dependency-vulnerability-checks)
+- [Why are Dependency Checks Important?](#why-are-dependency-checks-important)
+- [Workflow Diagram](#workflow-diagram)
+- [Tools for Python Dependency Checks](#tools-for-python-dependency-checks)
+- [Comparison of Tools](#comparison-of-tools)
+- [Advantages of Dependency Checks](#advantages-of-dependency-checks)
+- [Proof of Concept (POC)](#proof-of-concept-poc)
+- [Best Practices](#best-practices)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
 
 ---
 
@@ -101,11 +112,13 @@ Incorporate scanning into GitHub Actions, Jenkins, or GitLab pipelines to enforc
 
 ## Advantages of Dependency Checks
 
-- **Security Hardening**: Early detection prevents use of unsafe packages.
-- **Auditable Artifacts**: JSON reports offer traceable documentation for audits.
-- **Automated Risk Reduction**: Reduces manual work via CI/CD pipelines.
-- **Reduced CVE Impact**: Proactive scanning limits exposure time to known threats.
-- **Cross-Team Collaboration**: Shared scans foster awareness between Dev, Sec, and Ops teams.
+| Advantage                 | Description                                                                        |
+|---------------------------|------------------------------------------------------------------------------------|
+| Security Hardening        | Early detection prevents use of unsafe packages.                                   |
+| Auditable Artifacts       | JSON reports offer traceable documentation for audits.                             |
+| Automated Risk Reduction  | Reduces manual work via CI/CD pipelines.                                           |
+| Reduced CVE Impact        | Proactive scanning limits exposure time to known threats.                          |
+| Cross-Team Collaboration  | Shared scans foster awareness between Dev, Sec, and Ops teams.                     |
 
 ---
 
@@ -117,13 +130,15 @@ Incorporate scanning into GitHub Actions, Jenkins, or GitLab pipelines to enforc
 
 ## Best Practices
 
-- Use **virtual environments** to isolate dependencies.
-- Regularly update `requirements.txt` using `pip freeze > requirements.txt`.
-- Integrate scans in **every PR or release pipeline**.
-- Keep CI scans **fail-on-vulnerability** for critical CVEs.
-- Use **multiple tools** in critical applications for wider coverage.
-- Monitor **transitive dependencies** (e.g., packages used by your packages).
-- Automate **patching of safe upgrades** with Renovate or Dependabot.
+| Best Practice                                                              | Description                                                                              |
+|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Use virtual environments                                                   | Isolate dependencies for each project.                                                   |
+| Regularly update requirements.txt                                          | Use `pip freeze > requirements.txt` to keep dependencies up to date.                     |
+| Integrate scans in every PR or release pipeline                            | Ensure vulnerability scans for all code changes.                                         |
+| Keep CI scans fail-on-vulnerability for critical CVEs                      | Block builds/releases if critical vulnerabilities are found.                             |
+| Use multiple tools in critical applications for wider coverage              | Combine scanners for comprehensive results.                                              |
+| Monitor transitive dependencies                                            | Track packages used indirectly via direct dependencies.                                  |
+| Automate patching of safe upgrades with Renovate or Dependabot             | Automatically update dependencies to patched versions.                                   |
 
 ---
 
@@ -135,7 +150,8 @@ Among the available tools, pip-audit is a straightforward, open-source tool buil
 ## Contact Information
 | Name            | Email Address                         |
 |-----------------|---------------------------------------|
-| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](sachin.kumar.snaatak@mygurukulam.co) |
+| Sachin Kumar    | [sachin.kumar.snaatak@mygurukulam.co](mailto:sachin.kumar.snaatak@mygurukulam.co) |
+
 ---
 
 ## References
