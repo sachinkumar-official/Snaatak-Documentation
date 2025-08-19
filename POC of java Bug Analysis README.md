@@ -129,7 +129,7 @@ To get a detailed about bug analysis in java [click here]().
   > *Access postgre user*
 
   ```
-  sudo - postgres
+  su - postgres
   ```
 
   ![image](https://github.com/user-attachments/assets/4e13ff74-6e2f-4cc9-8cbf-54c36a3500e4)
