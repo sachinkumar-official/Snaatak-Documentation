@@ -31,15 +31,19 @@
 
 ## Introduction
 
-This document provides a step-by-step guide to perform dependency vulnerability scanning on Python projects using `pip-audit`. By identifying known vulnerabilities in project dependencies, developers can proactively address security issues and maintain the integrity of their applications.
+This document provides a step-by-step guide to perform dependency vulnerability scanning on Python projects using `pip-audit`. Finding known weaknesses in a project's dependencies allows developers to fix problems early and keep their applications safe and reliable.
+
+---
 
 ## What and Why Dependency Scanning?
 
-[Click here]() for a detailed and informative guide on dependency scanning with python.
+[Click here](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-168-sachin/Applications/CI-Design/Python%20CI%20Checks/Bugs%20analysis/Introduction/README.md) for a detailed and informative guide on dependency scanning with python.
+
+---
 
 ## Steps of Conduct
 
-### Prerequisites
+### Pre-requisites
 
 | Dependency       | Minimum Version |
 |------------------|-----------------|
@@ -51,13 +55,31 @@ This document provides a step-by-step guide to perform dependency vulnerability 
 
 ### Install Dependencies
 
-1. **Update and Upgrade Packages**
+1. **Check if pip3 is installed**
 
-    *[Go to this link](https://github.com/snaatak-Downtime-Crew/Documentation/blob/main/common_stack/operating_system/ubuntu/sop/commoncommands/README.md#1-basic-system-commands) and follow `STEP 3. Update and Upgrade Packages`.*
+    ```
+    pip3 --version
+    ```
+   <img width="527" height="75" alt="Image" src="https://github.com/user-attachments/assets/f58e682c-f120-4a63-aa07-47719236aacd" />
 
-2. **Install apt packages**
 
-    *[Go to this link](https://github.com/snaatak-Downtime-Crew/Documentation/tree/main/common_stack/operating_system/ubuntu/sop/softwaremanagement#3-Install-a-Software) and follow `3. Install a Software` Package name: python3, python3-pip, python3.12-venv*
+2. **Install pip (if not installed)**
+
+    ```
+    sudo apt update
+    sudo apt install python3-pip
+    ```
+    >*If pip3 is not found, install it with:*
+
+      <img width="801" height="201" alt="Image" src="https://github.com/user-attachments/assets/c1f70c2b-97f2-4955-b8c9-d65aaba7a6c9" />
+
+    - **then check**
+        
+   ```
+   pip3 --version
+   ```
+
+   <img width="801" height="68" alt="Image" src="https://github.com/user-attachments/assets/c8c4ba07-90f0-413c-a413-3e752d41eea9" />
   
 3. **Install pip-audit**
 
@@ -67,7 +89,7 @@ This document provides a step-by-step guide to perform dependency vulnerability 
    sudo pip install pip-audit --break-system-packages
    ```
 
-   ![image](https://github.com/user-attachments/assets/e9594ef4-c42e-4d12-a47a-d236838d7f9d)
+   <img width="470" height="69" alt="Image" src="https://github.com/user-attachments/assets/cbbfe35c-8731-423f-a014-c2738d081624" />
 
 ### Running pip-audit
 
@@ -75,7 +97,7 @@ This document provides a step-by-step guide to perform dependency vulnerability 
 
     *Clone the [Notification API](https://github.com/OT-MICROSERVICES/notification-worker.git) and [Attendance API](https://github.com/OT-MICROSERVICES/attendance-api.git) from github.*
 
-    ![image](https://github.com/user-attachments/assets/0180da62-db96-4882-8232-22882a0eb0b6)
+    <img width="759" height="281" alt="Image" src="https://github.com/user-attachments/assets/b5cdc931-9870-406f-9a44-f920a5a3393e" />
 
 
 
@@ -90,22 +112,21 @@ This document provides a step-by-step guide to perform dependency vulnerability 
     source venv1/bin/activate
     ```
 
-    ![image](https://github.com/user-attachments/assets/0cd9b861-d70a-4410-a064-ccec06022486)
+    <img width="759" height="97" alt="Image" src="https://github.com/user-attachments/assets/f3c0eff8-2927-4074-b942-e8928a03fad3" />
 
   - *Check if requirement.txt exists. If not create a requirements.txt with:*
     ```
-    pip freeze requirements.txt
+    pip freeze > requirements.txt
     ```
     
-    ![image](https://github.com/user-attachments/assets/568b446b-c871-4745-b740-a83c7442a64e)
+    <img width="769" height="33" alt="Image" src="https://github.com/user-attachments/assets/8eeffb49-2c00-4eba-96f1-6481e22596fb" />
 
-  - *Audit the file.*
     
     ```
     pip-audit -r requirements.txt
     ```
     
-    ![image](https://github.com/user-attachments/assets/c1dfd112-b906-4c76-8858-00342a1aae3d)
+    <img width="773" height="73" alt="Image" src="https://github.com/user-attachments/assets/d66a8b6b-24fc-4363-96a8-2f14798ac9fe" />
 
   - *Deactivate the virtual environment*
 
@@ -113,7 +134,7 @@ This document provides a step-by-step guide to perform dependency vulnerability 
     deactivate
     ```
 
-    ![image](https://github.com/user-attachments/assets/a36d195f-8559-41ad-804e-f34d74ede392)
+    <img width="663" height="65" alt="Image" src="https://github.com/user-attachments/assets/0689ff4b-cefe-41a9-b89c-88a39ef6d5dc" />
 
   > **Notification Worker**
 
@@ -124,14 +145,15 @@ This document provides a step-by-step guide to perform dependency vulnerability 
     source venv2/bin/activate
     ```
 
-    ![image](https://github.com/user-attachments/assets/7c1dd836-7a12-4af1-9fbf-f040c7700f7f)
+    <img width="704" height="70" alt="Image" src="https://github.com/user-attachments/assets/e6ad5a52-f135-4685-9cce-6b734210de92" />
 
   - *Check if requirement.txt exists. If not create a requirements.txt with:*
-    ```
-    pip freeze requirements.txt
-    ```
+       ```
+       pip freeze requirements.txt
+       ```
+      <img width="1148" height="70" alt="Image" src="https://github.com/user-attachments/assets/2fd26aca-555c-454b-aa4f-26c46653cc98" />
 
-    ![image](https://github.com/user-attachments/assets/17badc14-3b7c-4b76-842f-2a8be28854fc)
+    
     > *Already exists here*
     
   - *Audit the file.*
@@ -140,7 +162,7 @@ This document provides a step-by-step guide to perform dependency vulnerability 
     pip-audit -r requirements.txt
     ```
     
-    ![image](https://github.com/user-attachments/assets/9e8418e3-16ea-4ee1-a809-dbbd310d613b)
+    <img width="827" height="70" alt="Image" src="https://github.com/user-attachments/assets/acf2a726-9a51-4c61-9e7c-8f93dfbd529b" />
 
   - *Deactivate the virtual environment*
 
@@ -148,7 +170,7 @@ This document provides a step-by-step guide to perform dependency vulnerability 
     deactivate
     ```
 
-    ![image](https://github.com/user-attachments/assets/4e58e471-a99a-4766-8f91-7ef43058a827)
+    <img width="1148" height="70" alt="Image" src="https://github.com/user-attachments/assets/2fd26aca-555c-454b-aa4f-26c46653cc98" />
 
 ### Analyzing Results
 
