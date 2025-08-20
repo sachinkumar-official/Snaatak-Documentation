@@ -16,9 +16,11 @@
 This POC demonstrates the implementation of Jest for unit testing React components, covering setup, configuration, and test execution.
 
 ## Pre-requisites
-- Node.js ≥ v16.x
-- npm ≥ v8.x or yarn
-- React application (v17+ recommended)
+| Requirement         | Version/Details            |
+|---------------------|---------------------------|
+| **Node.js**             | ≥ v16.x                   |
+| **npm or yarn**         | ≥ v8.x (npm) or yarn      |
+| **React application**   | v17+ recommended          |
 
 ## Implementation Guide
 
