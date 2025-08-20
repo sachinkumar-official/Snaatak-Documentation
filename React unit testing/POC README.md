@@ -1,10 +1,16 @@
-# Proof of Concept: React Unit Testing with Jest
+# POC of React Unit Testing 
 
+<img width="275" height="183" alt="Image" src="https://github.com/user-attachments/assets/01e0be40-e8e3-4667-af06-d49d6411797d" />
 
-| Created     | Last Updated | Version | Author          | Comment         | Reviewer |
-|-------------|--------------|---------|-----------------|-----------------|----------|
-| 13-05-2025  |  13-05-2025  | V1      | Nishkarsh Kumar | Internal Review | Pritam   |
-
+---
+## Author Information
+| Last Updated On | Version | Author       | Level           | Reviewer   |
+|-----------------|---------|--------------|-----------------|------------|
+| 20-08-2025      | V1.0    | Sachin Kumar | Internal Review | Pritam     |
+| 21-08-2025      | V1.1    | Sachin Kumar | L0              |Shreya/Sharvari|
+|                 |         | Sachin Kumar | L1              | Abhishek V |
+|                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
+---
 
 ## Introduction
 This POC demonstrates the implementation of Jest for unit testing React components, covering setup, configuration, and test execution.
@@ -80,16 +86,18 @@ test('renders button with text', () => {
 npm test
 ```
 ![5](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20130015.png)
-## Contact
 
-| **Name**    | **Email**                |
-|-------------|--------------------------|
-| Nishkarsh Kumar     | nishkarsh.kumar.snaatak@mygurukulam.co  |
+---
+## Contact Information
+| Name            | Email Address                         |
+|-----------------|---------------------------------------|
+| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](sachin.kumar.snaatak@mygurukulam.co) |
 
+---
 
 ## References  
 
 | Title                          | Link                                                                 |  
 |--------------------------------|----------------------------------------------------------------------|  
-| Jest Documentation       | [Visit](https://jestjs.io/) |  
-| React Testing Best Practices                  | [Visit](https://legacy.reactjs.org/docs/testing.html) |  
+| **Jest Documentation**       | [Visit](https://jestjs.io/) |  
+| **React Testing Best Practices**                  | [Visit](https://legacy.reactjs.org/docs/testing.html) |  
