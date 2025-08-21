@@ -12,6 +12,20 @@
 |                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh sharma|
 ---
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Pre-requisites](#pre-requisites)
+- [Implementation Guide](#implementation-guide)
+  - [Base Installation](#1-base-installation)
+  - [Configuration Files](#2-configuration-files)
+  - [Update package.json Scripts](#3--update-packagejson-scripts)
+  - [Sample Test File](#4--sample-test-file)
+  - [Running Tests](#5--running-tests)
+- [Contact Information](#contact-information)
+- [References](#references)
+
+---
+
 ## Introduction
 This POC demonstrates the implementation of Jest for unit testing React components, covering setup, configuration, and test execution.
 
@@ -93,7 +107,7 @@ npm test
 ## Contact Information
 | Name            | Email Address                         |
 |-----------------|---------------------------------------|
-| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](sachin.kumar.snaatak@mygurukulam.co) |
+| Sachin Kumar  | [sachin.kumar.snaatak@mygurukulam.co](mailto:sachin.kumar.snaatak@mygurukulam.co) |
 
 ---
 
