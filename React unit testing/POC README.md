@@ -49,7 +49,8 @@ npm install --save-dev \
   jest-environment-jsdom@26.x \
   --legacy-peer-deps
 ```
-![1](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20123037.png)
+<img width="887" height="402" alt="Image" src="https://github.com/user-attachments/assets/50d02ac8-5c45-4c4e-93a1-82d12c121d04" />
+
 ### 2. Configuration Files
 
 #### `jest.config.js`
@@ -67,12 +68,15 @@ module.exports = {
   ]
 };
 ```
-![2]()
-#### `jest.config.js`
+<img width="688" height="204" alt="Image" src="https://github.com/user-attachments/assets/fbbe755f-a367-47e9-8ac0-54b0de07d7ec" />
+
+#### `jest.setup.js`
 
 ```bash
 require('@testing-library/jest-dom/extend-expect');
 ```
+<img width="456" height="43" alt="Image" src="https://github.com/user-attachments/assets/f8495744-3eea-4a7a-b20e-8806ada8c2f4" />
+
 ### 3.  Update package.json Scripts
 
 ```bash
@@ -82,7 +86,8 @@ require('@testing-library/jest-dom/extend-expect');
   "test:coverage": "jest --coverage"
 }
 ```
-![3](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20123343.png)
+<img width="705" height="525" alt="Image" src="https://github.com/user-attachments/assets/f75a1fbe-36c0-43d1-8db0-0b31c78353cf" />
+
 ### 4.  Sample Test File
 Create a test file for a React component in /frontend/src/components/__tests__/Example.test.js.
 ```bash
@@ -95,13 +100,14 @@ test('renders button with text', () => {
   expect(screen.getByText('Click Me')).toBeInTheDocument();
 });
 ```
-![4](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20123904.png)
+<img width="705" height="525" alt="Image" src="https://github.com/user-attachments/assets/e68428fd-2dfc-4f63-a211-60a635289715" />
+
 ### 5.  Running Tests
 
 ```bash
 npm test
 ```
-![5](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20130015.png)
+<img width="404" height="279" alt="Image" src="https://github.com/user-attachments/assets/1c4f8f1e-10c1-466a-b8bc-4bdb62765722" />
 
 ---
 ## Contact Information
