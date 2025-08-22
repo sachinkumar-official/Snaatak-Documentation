@@ -1,13 +1,13 @@
-# Implementation on VCS Setup 
+# Implementation on VCS Setup (Github)
 
-<img width="225" height="225" alt="Image" src="https://github.com/user-attachments/assets/cc12d09c-9889-42e3-8fe7-52c1a38a6ae4" />
+<img width="369" height="136" alt="Image" src="https://github.com/user-attachments/assets/6674797e-4802-465b-9680-5e91a6b8d917" />
 
 ---
 # Author Information
 | Last Updated On | Version | Author       | Level           | Reviewer   |
 |-----------------|---------|--------------|-----------------|------------|
-| 31-07-2025      | V1.0    | Sachin Kumar | Internal Review | Pritam     |
-| 01-07-2025      | V1.1    | Sachin Kumar | L0              | Shreya/Sharvari |
+| 17-08-2025      | V1.0    | Sachin Kumar | Internal Review | Pritam     |
+| 19-08-2025      | V1.1    | Sachin Kumar | L0              | Shreya/Sharvari |
 |                 |         | Sachin Kumar | L1              | Abhishek V |
 |                 |         | Sachin Kumar | L2              | Abhishek Dubey/Rishabh Sharma |
 
@@ -20,7 +20,6 @@
   - [Organization Setup](#2-organization-setup)
   - [Repository Creation](#3-repository-creation)
   - [Team Management](#4-team-management)
-  - [Version Control Concepts](#5-version-control-concepts)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
@@ -28,7 +27,7 @@
 
 # Introduction
 
-This document will walk you through the step-by-step process of installing GitHub, an essential platform for version control and collaborative software development. GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
+This document will walk you through the step-by-step process of installing GitHub, an essential platform for version control and collaborative software development. For more information follow this [link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-90-sachin/VCS/Features-VCS/Setup/README.md)
 
 ***
 
@@ -104,41 +103,13 @@ Teams help organize contributors and manage permissions.
 
 ### Step 2: Assign Repository Access
 
-- Assign teams to repositories.
-- Set permissions (read, write, admin) based on role.
-- Example: Developers get write access, Testers get read access.
+> Here the link of Authentication setup. [Link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-138-kawalpreet/VCS-Implementation/Authentication/README.md)
+
+> Here the link of  Authorization setup. [Link](https://team-snaatak-p-15.atlassian.net/browse/SCRUM-139)
+
 
 ---
 
-## 5. Version Control Concepts
-
-### Centralized VCS
-
-- One central repository; all changes are committed to this server.
-- Example tools: SVN, Perforce.
-
-### Distributed VCS (Git/GitHub)
-
-- Everyone has a local copy of the repository.
-- Changes are made locally, then pushed to the remote repository.
-- Collaboration is enhanced; no single point of failure.
-
-### Local VCS
-
-- Tracks changes only on your local machine.
-- Not recommended for team projects.
-
-### Setting Up Git Locally
-
-> Follow this Documentation [Link](https://github.com/Snaatak-Apt-Get-Swag/documentation/blob/SCRUM-90-sachin/VCS/Features-VCS/Setup/README.md)
-   
----
-
-# Conclusion  
-
-In conclusion, this GitHub Setup Documentation has guided you through the essential steps to establish a solid foundation for version control and collaborative development. GitHub's features will empower you to optimize your development workflow, collaborate efficiently, and maintain code quality. 
-
----
 
 # Contact Information
 
