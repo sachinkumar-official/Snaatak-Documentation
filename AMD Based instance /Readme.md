@@ -34,40 +34,40 @@ AWS offers AMD-based Amazon EC2 instances as a cost-effective alternative to tra
 
 | Instance Family | Key Features | Target Workload |
 |-----------------|-------------|----------------|
-| General Purpose (M6a, T4a) | Balanced CPU, memory, and network performance | Web servers, small-to-medium databases, development environments |
-| Compute Optimized (C6a) | High CPU-to-memory ratio for compute-intensive tasks | Batch processing, HPC, scientific modeling, AI inference |
-| Memory Optimized (R6a, X2a) | Large memory per vCPU for memory-intensive workloads | In-memory databases, big data analytics, caching |
-| Storage Optimized (I4a) | High IOPS and storage throughput | Data warehousing, NoSQL databases, transactional systems |
+| **General Purpose (M6a, T4a)** | Balanced CPU, memory, and network performance | Web servers, small-to-medium databases, development environments |
+| **Compute Optimized (C6a)** | High CPU-to-memory ratio for compute-intensive tasks | Batch processing, HPC, scientific modeling, AI inference |
+| **Memory Optimized (R6a, X2a)** | Large memory per vCPU for memory-intensive workloads | In-memory databases, big data analytics, caching |
+| **Storage Optimized (I4a)** | High IOPS and storage throughput | Data warehousing, NoSQL databases, transactional systems |
 
 ---
 ## Cost-Performance Advantages
 
 | Cost-Performance Advantages | Description |
 |-----------------------------|-------------|
-| Lower Pricing | AMD-based instances are often 10–20% cheaper than Intel equivalents. |
-| High Performance per Dollar | Competitive clock speeds and core counts offer better price-to-performance ratio. |
-| Energy Efficiency | AMD EPYC processors reduce operational costs. |
-| Scalable Options | Wide range of sizes for small and large deployments. |
+| **Lower Pricing** | AMD-based instances are often 10–20% cheaper than Intel equivalents. |
+| **High Performance per Dollar** | Competitive clock speeds and core counts offer better price-to-performance ratio. |
+| **Energy Efficiency** | AMD EPYC processors reduce operational costs. |
+| **Scalable Options** | Wide range of sizes for small and large deployments. |
 
 ---
 ## Software Compatibility
 
 | Software Category | Supported Software / Platforms |
 |------------------|-------------------------------|
-| Operating Systems | Linux distributions (Ubuntu, RHEL, CentOS, Amazon Linux), Windows Server |
-| Databases | MySQL, PostgreSQL, MongoDB, Oracle, Microsoft SQL Server |
-| Containers & Orchestration | Docker, Kubernetes |
+| **Operating Systems** | Linux distributions (Ubuntu, RHEL, CentOS, Amazon Linux), Windows Server |
+| **Databases** | MySQL, PostgreSQL, MongoDB, Oracle, Microsoft SQL Server |
+| **Containers & Orchestration** | Docker, Kubernetes |
 
 ---
 ## Recommended Scenarios
 
 | Scenario | Description |
 |---------|-------------|
-| Cost-Sensitive Deployments | High performance at lower cost |
-| Compute-Intensive Workloads | HPC simulations, batch processing, AI inference |
-| Memory-Intensive Applications | In-memory databases, large analytics workloads |
-| Development & Testing | Non-production environments requiring flexibility |
-| Containerized Workloads | Microservices or Kubernetes clusters efficiently |
+| **Cost-Sensitive Deployments** | High performance at lower cost |
+| **Compute-Intensive Workloads** | HPC simulations, batch processing, AI inference |
+| **Memory-Intensive Applications** | In-memory databases, large analytics workloads |
+| **Development & Testing** | Non-production environments requiring flexibility |
+| **Containerized Workloads** | Microservices or Kubernetes clusters efficiently |
 
 ---
 
